@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blocktesting:blocks/blackcrate_3",
+    "particle": "blocktesting:blocks/blackcrate_3"
+  }
+}

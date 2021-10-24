@@ -1,0 +1,363 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Wood1",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_1"
+    },
+    {
+      "name": "Crate132x32",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_132x_32"
+    },
+    {
+      "name": "Crates32x32",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crates_32x_32"
+    },
+    {
+      "name": "CherryCrate032x32",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_crate_032x_32"
+    },
+    {
+      "name": "IceCrate032x32",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_crate_032x_32"
+    },
+    {
+      "name": "IceCrate132x32",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_crate_132x_32"
+    },
+    {
+      "name": "Crate032x32",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_032x_32"
+    },
+    {
+      "name": "Crate232x32",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_232x_32"
+    },
+    {
+      "name": "RedCrate0",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crate_0"
+    },
+    {
+      "name": "BlackCrate0",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_crate_0"
+    },
+    {
+      "name": "BlackCrate1",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_crate_1"
+    },
+    {
+      "name": "BlackCrate2",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_crate_2"
+    },
+    {
+      "name": "BlackCrate3",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_crate_3"
+    },
+    {
+      "name": "PurpleCrate0",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purple_crate_0"
+    },
+    {
+      "name": "TanCrate0",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tan_crate_0"
+    },
+    {
+      "name": "TwitchCrate0",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_crate_0"
+    },
+    {
+      "name": "SakuraCrate0",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_crate_0"
+    },
+    {
+      "name": "Containers32x32",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "containers_32x_32"
+    },
+    {
+      "name": "SakuraContainer0",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_container_0"
+    },
+    {
+      "name": "SakureContainer1",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakure_container_1"
+    },
+    {
+      "name": "SakuraContainer2",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_container_2"
+    },
+    {
+      "name": "WhiteContainer0",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_container_0"
+    },
+    {
+      "name": "WhiteContainer1",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_container_1"
+    },
+    {
+      "name": "WhiteContainer2",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_container_2"
+    },
+    {
+      "name": "TwitchContainer0",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_container_0"
+    },
+    {
+      "name": "TwitchContainer1",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_container_1"
+    },
+    {
+      "name": "TwitchContainer2",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_container_2"
+    },
+    {
+      "name": "BlackContainer0",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_container_0"
+    },
+    {
+      "name": "BlackContainer1",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_container_1"
+    },
+    {
+      "name": "BlackContainer2",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_container_2"
+    },
+    {
+      "name": "OrangeContainer0",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_container_0"
+    },
+    {
+      "name": "OrangeContainer1",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_container_1"
+    },
+    {
+      "name": "OrangeContainer2",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_container_2"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.blocktesting.black_crate_2": "Black Crate 0",
+      "block.blocktesting.black_container_2": "Black Container 2",
+      "block.blocktesting.black_crate_3": "Black Crate 0",
+      "block.blocktesting.crate_132x_32": "Crate 1 3 2x 3 2",
+      "block.blocktesting.white_container_2": "White Container 2",
+      "block.blocktesting.black_container_0": "Black Container 0",
+      "block.blocktesting.wood_1": "Wood 1",
+      "block.blocktesting.black_container_1": "Black Container 1",
+      "block.blocktesting.white_container_0": "White Container 0",
+      "block.blocktesting.white_container_1": "White Container 1",
+      "block.blocktesting.black_crate_0": "Black Crate 0",
+      "block.blocktesting.black_crate_1": "Black Crate 0",
+      "itemGroup.tabcrates_32x_32": "Crates 3 2x 3 2",
+      "block.blocktesting.sakura_container_0": "Sakura Container 0",
+      "block.blocktesting.red_crate_0": "Red Crate 0",
+      "block.blocktesting.sakura_container_2": "Sakure Container 2",
+      "block.blocktesting.cherry_crate_032x_32": "Cherry Crate 0 3 2x 3 2",
+      "block.blocktesting.sakura_crate_0": "Purple Crate 0",
+      "itemGroup.tabcontainers_32x_32": "Containers 3 2x 3 2",
+      "block.blocktesting.ice_crate_032x_32": "Ice Crate 0 3 2x 3 2",
+      "block.blocktesting.purple_crate_0": "Purple Crate 0",
+      "block.blocktesting.crate_032x_32": "Crate 0 3 2x 3 2",
+      "block.blocktesting.twitch_container_2": "Twitch Container 2",
+      "block.blocktesting.crate_232x_32": "Crate 2 3 2x 3 2",
+      "block.blocktesting.twitch_container_0": "Twitch Container 0",
+      "block.blocktesting.twitch_container_1": "Twitch Container 1",
+      "block.blocktesting.sakure_container_1": "Sekura Container 1",
+      "block.blocktesting.orange_container_1": "Orange Container 1",
+      "block.blocktesting.orange_container_2": "Orange Container 2",
+      "block.blocktesting.orange_container_0": "Orange Container 0",
+      "block.blocktesting.ice_crate_132x_32": "Ice Crate 1 3 2x 3 2",
+      "block.blocktesting.tan_crate_0": "Purple Crate 0",
+      "block.blocktesting.twitch_crate_0": "Purple Crate 0"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "blocktesting",
+    "modName": "BlockTesting",
+    "version": "1.0.0",
+    "author": "cmc03, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.blocktesting",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

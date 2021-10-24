@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blocktesting:blocks/twitchcontainer0_bottom",
+    "up": "blocktesting:blocks/twitchcontainer0_top",
+    "north": "blocktesting:blocks/twitchcontainer0_front",
+    "east": "blocktesting:blocks/twitchcontainer0_left",
+    "south": "blocktesting:blocks/whitecontainer0_back",
+    "west": "blocktesting:blocks/twitchcontainer0_right",
+    "particle": "blocktesting:blocks/twitchcontainer0_bottom"
+  }
+}

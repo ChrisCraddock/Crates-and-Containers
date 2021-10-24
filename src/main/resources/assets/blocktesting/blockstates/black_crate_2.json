@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "blocktesting:block/black_crate_2"
+    }
+  }
+}

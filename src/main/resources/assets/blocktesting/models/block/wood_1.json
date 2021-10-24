@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "blocktesting:blocks/wood1",
+    "particle": "blocktesting:blocks/wood1"
+  }
+}

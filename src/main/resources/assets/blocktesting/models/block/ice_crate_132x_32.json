@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blocktesting:blocks/icecrate1top",
+    "up": "blocktesting:blocks/icecrate1top",
+    "north": "blocktesting:blocks/icecrate1",
+    "east": "blocktesting:blocks/icecrate1",
+    "south": "blocktesting:blocks/icecrate1",
+    "west": "blocktesting:blocks/icecrate1",
+    "particle": "blocktesting:blocks/icecrate1top"
+  }
+}

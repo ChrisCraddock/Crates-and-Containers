@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blocktesting:block/sakura_container_0"
+    },
+    "facing=east": {
+      "model": "blocktesting:block/sakura_container_0",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blocktesting:block/sakura_container_0",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blocktesting:block/sakura_container_0",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "blocktesting:block/sakura_container_0",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "blocktesting:block/sakura_container_0",
+      "x": 90
+    }
+  }
+}
