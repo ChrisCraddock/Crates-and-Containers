@@ -297,6 +297,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "orange_container_2"
+    },
+    {
+      "name": "GreenContainer0",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_container_0"
+    },
+    {
+      "name": "GreenContainer1",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_container_1"
+    },
+    {
+      "name": "GreenContainer2",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_container_2"
     }
   ],
   "variable_elements": [],
@@ -335,6 +362,9 @@
       "block.blocktesting.orange_container_0": "Orange Container 0",
       "block.blocktesting.ice_crate_132x_32": "Ice Crate 1 3 2x 3 2",
       "block.blocktesting.tan_crate_0": "Purple Crate 0",
+      "block.blocktesting.green_container_1": "Green Container 1",
+      "block.blocktesting.green_container_0": "Green Container 0",
+      "block.blocktesting.green_container_2": "Green Container 2",
       "block.blocktesting.twitch_crate_0": "Purple Crate 0"
     }
   },
