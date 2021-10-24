@@ -324,6 +324,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "green_container_2"
+    },
+    {
+      "name": "BlueSnowContainer0",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_snow_container_0"
+    },
+    {
+      "name": "BlueSnowContainer1",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_snow_container_1"
+    },
+    {
+      "name": "BlueSnowContainer2",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_snow_container_2"
     }
   ],
   "variable_elements": [],
@@ -343,6 +370,9 @@
       "block.blocktesting.black_crate_0": "Black Crate 0",
       "block.blocktesting.black_crate_1": "Black Crate 0",
       "itemGroup.tabcrates_32x_32": "Crates 3 2x 3 2",
+      "block.blocktesting.blue_snow_container_1": "Blue Snow Container 1",
+      "block.blocktesting.blue_snow_container_2": "Blue Snow Container 2",
+      "block.blocktesting.blue_snow_container_0": "Blue Snow Container 0",
       "block.blocktesting.sakura_container_0": "Sakura Container 0",
       "block.blocktesting.red_crate_0": "Red Crate 0",
       "block.blocktesting.sakura_container_2": "Sakure Container 2",
