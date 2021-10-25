@@ -351,6 +351,179 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blue_snow_container_2"
+    },
+    {
+      "name": "TestChest1",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_chest_1",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "TestChest1GUI",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_chest_1_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "TestChest1BlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_chest_1_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteContainerEndsGUI",
+      "type": "gui",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "WhiteContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_container_middle_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "SakuraContainerEndsGUI",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "SakuraContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sakura_container_middle_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "BlueSnowContainerEndsGUI",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_snow_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "BlueSnowContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_snow_container_middle_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "OrangeContainerEndsGUI",
+      "type": "gui",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "OrangeContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_container_middle_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "TwitchContainerEndsGUI",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "TwitchContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitch_container_middle_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "GreenContainerEndsGUI",
+      "type": "gui",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_container_ends_gui",
+      "path": "~/BlockTesting UWU"
+    },
+    {
+      "name": "GreenContainerMiddleGUI",
+      "type": "gui",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_container_middle_gui",
+      "path": "~/BlockTesting UWU"
     }
   ],
   "variable_elements": [],
@@ -395,12 +568,18 @@
       "block.blocktesting.green_container_1": "Green Container 1",
       "block.blocktesting.green_container_0": "Green Container 0",
       "block.blocktesting.green_container_2": "Green Container 2",
-      "block.blocktesting.twitch_crate_0": "Purple Crate 0"
+      "block.blocktesting.twitch_crate_0": "Purple Crate 0",
+      "block.blocktesting.test_chest_1": "Test Chest 1"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BlockTesting UWU",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "blocktesting",
