@@ -118,64 +118,6 @@ public class TestChest1GUIGui extends BlocktestingModElements.ModElement {
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 98) {
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 98) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 80) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 80) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 80) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 80) {
 			}));
@@ -242,6 +184,24 @@ public class TestChest1GUIGui extends BlocktestingModElements.ModElement {
 			this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 133, 26) {
 			}));
 			this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 151, 26) {
+			}));
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 98) {
+			}));
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 98) {
+			}));
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 98) {
+			}));
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 98) {
+			}));
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 98) {
+			}));
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 98) {
+			}));
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 80) {
+			}));
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 80) {
+			}));
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 80) {
 			}));
 			int si;
 			int sj;
