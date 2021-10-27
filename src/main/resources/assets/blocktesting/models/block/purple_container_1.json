@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "blocktesting:blocks/purplecontainer1_bottom",
-    "up": "blocktesting:blocks/purplecontainer2_bottom",
+    "up": "blocktesting:blocks/purplecontainer1_bottom",
     "north": "blocktesting:blocks/whitecontainer0_back",
     "east": "blocktesting:blocks/purplecontainer1_left",
     "south": "blocktesting:blocks/whitecontainer1_frontside",

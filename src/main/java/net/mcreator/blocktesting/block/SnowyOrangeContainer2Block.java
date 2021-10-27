@@ -47,7 +47,7 @@ import net.minecraft.block.DirectionalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.blocktesting.itemgroup.Containers32x32ItemGroup;
+import net.mcreator.blocktesting.itemgroup.SnowContainers32x32ItemGroup;
 import net.mcreator.blocktesting.BlocktestingModElements;
 
 import javax.annotation.Nullable;
@@ -70,8 +70,8 @@ public class SnowyOrangeContainer2Block extends BlocktestingModElements.ModEleme
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(Containers32x32ItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(SnowContainers32x32ItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent

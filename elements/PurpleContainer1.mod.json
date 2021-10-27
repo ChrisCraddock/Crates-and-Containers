@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "purplecontainer1_bottom",
-    "textureTop": "purplecontainer2_bottom",
+    "textureTop": "purplecontainer1_bottom",
     "textureLeft": "purplecontainer1_left",
     "textureFront": "whitecontainer0_back",
     "textureRight": "purplecontainer1_right",
