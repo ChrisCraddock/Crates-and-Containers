@@ -750,6 +750,36 @@
       "ids": {},
       "registry_name": "tan_container_2",
       "path": "~/Containers/NoSnow"
+    },
+    {
+      "name": "DefaultContainer0",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "default_container_0",
+      "path": "~/Containers"
+    },
+    {
+      "name": "DefaultContainer1",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "default_container_1",
+      "path": "~/Containers"
+    },
+    {
+      "name": "DefaultContainer2",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "default_container_2",
+      "path": "~/Containers"
     }
   ],
   "variable_elements": [],
@@ -757,8 +787,8 @@
   "language_map": {
     "en_us": {
       "block.blocktesting.black_container_2": "Black Container 2",
-      "block.blocktesting.black_container_0": "Black Container 0",
       "block.blocktesting.white_container_2": "White Container 2",
+      "block.blocktesting.black_container_0": "Black Container 0",
       "block.blocktesting.black_container_1": "Black Container 1",
       "block.blocktesting.white_container_0": "White Container 0",
       "block.blocktesting.white_container_1": "White Container 1",
@@ -778,8 +808,8 @@
       "block.blocktesting.snowy_sakura_container_2": "Snow Sakura Container 2",
       "block.blocktesting.snowy_green_container_2": "Snow Green Container 2",
       "block.blocktesting.snowy_green_container_1": "Snow Green Container 1",
-      "block.blocktesting.crate_032x_32": "Crate 0 3 2x 3 2",
       "block.blocktesting.purple_crate_0": "Purple Crate 0",
+      "block.blocktesting.crate_032x_32": "Crate 0 3 2x 3 2",
       "block.blocktesting.snowy_black_container_1": "Snow Black Container 1",
       "block.blocktesting.snowy_black_container_2": "Snow Black Container 2",
       "block.blocktesting.brown_container_0": "Brown Container 0",
@@ -794,8 +824,11 @@
       "block.blocktesting.snowy_brown_container_1": "Snow Brown Container 1",
       "block.blocktesting.black_crate_0": "Black Crate 0",
       "block.blocktesting.black_crate_1": "Black Crate 0",
+      "block.blocktesting.default_container_2": "Default Container 0",
       "itemGroup.tabcrates_32x_32": "Crates 3 2x 3 2",
       "block.blocktesting.snowy_brown_container_2": "Snow Brown Container 2",
+      "block.blocktesting.default_container_0": "Default Container 0",
+      "block.blocktesting.default_container_1": "Default Container 0",
       "block.blocktesting.red_crate_0": "Red Crate 0",
       "block.blocktesting.snowy_black_container_0": "Snow Black Container 0",
       "block.blocktesting.cherry_crate_032x_32": "Cherry Crate 0 3 2x 3 2",
