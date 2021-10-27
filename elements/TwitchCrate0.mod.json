@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:SnowyCrates"
+      "value": "CUSTOM:Crates32x32"
     },
     "destroyTool": "axe",
     "customDrop": {

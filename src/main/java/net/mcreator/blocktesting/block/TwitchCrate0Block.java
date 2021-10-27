@@ -15,7 +15,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.blocktesting.itemgroup.SnowyCratesItemGroup;
+import net.mcreator.blocktesting.itemgroup.Crates32x32ItemGroup;
 import net.mcreator.blocktesting.BlocktestingModElements;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public class TwitchCrate0Block extends BlocktestingModElements.ModElement {
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(SnowyCratesItemGroup.tab)).setRegistryName(block.getRegistryName()));
+				.add(() -> new BlockItem(block, new Item.Properties().group(Crates32x32ItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
