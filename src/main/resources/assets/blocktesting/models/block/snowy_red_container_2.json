@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blocktesting:blocks/snowyredcontainer2_bottom",
+    "up": "blocktesting:blocks/snowyredcontainer2_top",
+    "north": "blocktesting:blocks/snowyredcontainer2_middle",
+    "east": "blocktesting:blocks/snowyredcontainer2_left",
+    "south": "blocktesting:blocks/whitecontainer1_frontside",
+    "west": "blocktesting:blocks/snowyredcontainer2_right",
+    "particle": "blocktesting:blocks/snowyredcontainer2_bottom"
+  }
+}

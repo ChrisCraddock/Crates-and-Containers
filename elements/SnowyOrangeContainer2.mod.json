@@ -34,7 +34,7 @@
     ],
     "name": "Snow Orange Container 2",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 6.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
