@@ -141,7 +141,7 @@ public class TanContainer1Block extends BlocktestingModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("White Container 1");
+						return new StringTextComponent("Tan Container 1");
 					}
 
 					@Override
@@ -273,7 +273,7 @@ public class TanContainer1Block extends BlocktestingModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("White Container 1");
+			return new StringTextComponent("Tan Container 1");
 		}
 
 		@Override

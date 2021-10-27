@@ -142,7 +142,7 @@ public class SnowyTwitchContainer0Block extends BlocktestingModElements.ModEleme
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("White Container 0");
+						return new StringTextComponent("Snow Twitch Container 0");
 					}
 
 					@Override
@@ -274,7 +274,7 @@ public class SnowyTwitchContainer0Block extends BlocktestingModElements.ModEleme
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("White Container 0");
+			return new StringTextComponent("Snow Twitch Container 0");
 		}
 
 		@Override

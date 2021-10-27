@@ -241,7 +241,7 @@ public class SnowyOrangeContainer2Block extends BlocktestingModElements.ModEleme
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("White Container 2");
+			return new StringTextComponent("Snow Orange Container 2");
 		}
 
 		@Override

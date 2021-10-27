@@ -142,7 +142,7 @@ public class SnowyWhiteContainer1Block extends BlocktestingModElements.ModElemen
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("White Container 1");
+						return new StringTextComponent("Snow White Container 1");
 					}
 
 					@Override
@@ -274,7 +274,7 @@ public class SnowyWhiteContainer1Block extends BlocktestingModElements.ModElemen
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("White Container 1");
+			return new StringTextComponent("Snow White Container 1");
 		}
 
 		@Override
