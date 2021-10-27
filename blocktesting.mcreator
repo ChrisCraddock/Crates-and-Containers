@@ -17,7 +17,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crate_132x_32"
+      "registry_name": "crate_132x_32",
+      "path": "~/Crates"
     },
     {
       "name": "Crates32x32",
@@ -35,7 +36,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cherry_crate_032x_32"
+      "registry_name": "cherry_crate_032x_32",
+      "path": "~/Crates"
     },
     {
       "name": "IceCrate032x32",
@@ -44,7 +46,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ice_crate_032x_32"
+      "registry_name": "ice_crate_032x_32",
+      "path": "~/Crates"
     },
     {
       "name": "IceCrate132x32",
@@ -53,7 +56,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "ice_crate_132x_32"
+      "registry_name": "ice_crate_132x_32",
+      "path": "~/Crates"
     },
     {
       "name": "Crate032x32",
@@ -62,7 +66,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crate_032x_32"
+      "registry_name": "crate_032x_32",
+      "path": "~/Crates"
     },
     {
       "name": "Crate232x32",
@@ -71,7 +76,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crate_232x_32"
+      "registry_name": "crate_232x_32",
+      "path": "~/Crates"
     },
     {
       "name": "RedCrate0",
@@ -80,7 +86,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "red_crate_0"
+      "registry_name": "red_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "BlackCrate0",
@@ -89,7 +96,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_crate_0"
+      "registry_name": "black_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "BlackCrate1",
@@ -98,7 +106,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_crate_1"
+      "registry_name": "black_crate_1",
+      "path": "~/Crates"
     },
     {
       "name": "BlackCrate2",
@@ -107,7 +116,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_crate_2"
+      "registry_name": "black_crate_2",
+      "path": "~/Crates"
     },
     {
       "name": "BlackCrate3",
@@ -116,7 +126,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_crate_3"
+      "registry_name": "black_crate_3",
+      "path": "~/Crates"
     },
     {
       "name": "PurpleCrate0",
@@ -125,7 +136,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "purple_crate_0"
+      "registry_name": "purple_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "TanCrate0",
@@ -134,7 +146,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tan_crate_0"
+      "registry_name": "tan_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "TwitchCrate0",
@@ -143,7 +156,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "twitch_crate_0"
+      "registry_name": "twitch_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "SakuraCrate0",
@@ -152,7 +166,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sakura_crate_0"
+      "registry_name": "sakura_crate_0",
+      "path": "~/Crates"
     },
     {
       "name": "Containers32x32",
@@ -170,7 +185,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sakura_container_0"
+      "registry_name": "sakura_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "SakureContainer1",
@@ -179,7 +195,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sakure_container_1"
+      "registry_name": "sakure_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "SakuraContainer2",
@@ -188,7 +205,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sakura_container_2"
+      "registry_name": "sakura_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "WhiteContainer0",
@@ -197,7 +215,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "white_container_0"
+      "registry_name": "white_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "WhiteContainer1",
@@ -206,7 +225,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "white_container_1"
+      "registry_name": "white_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "WhiteContainer2",
@@ -215,7 +235,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "white_container_2"
+      "registry_name": "white_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "TwitchContainer0",
@@ -224,7 +245,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "twitch_container_0"
+      "registry_name": "twitch_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "TwitchContainer1",
@@ -233,7 +255,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "twitch_container_1"
+      "registry_name": "twitch_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "TwitchContainer2",
@@ -242,7 +265,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "twitch_container_2"
+      "registry_name": "twitch_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "BlackContainer0",
@@ -251,7 +275,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_container_0"
+      "registry_name": "black_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "BlackContainer1",
@@ -260,7 +285,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_container_1"
+      "registry_name": "black_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "BlackContainer2",
@@ -269,7 +295,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_container_2"
+      "registry_name": "black_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "OrangeContainer0",
@@ -278,7 +305,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "orange_container_0"
+      "registry_name": "orange_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "OrangeContainer1",
@@ -287,7 +315,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "orange_container_1"
+      "registry_name": "orange_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "OrangeContainer2",
@@ -296,7 +325,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "orange_container_2"
+      "registry_name": "orange_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "GreenContainer0",
@@ -305,7 +335,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "green_container_0"
+      "registry_name": "green_container_0",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "GreenContainer1",
@@ -314,7 +345,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "green_container_1"
+      "registry_name": "green_container_1",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "GreenContainer2",
@@ -323,7 +355,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "green_container_2"
+      "registry_name": "green_container_2",
+      "path": "~/Containers/NoSnow"
     },
     {
       "name": "BlueSnowContainer0",
@@ -332,7 +365,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "blue_snow_container_0"
+      "registry_name": "blue_snow_container_0",
+      "path": "~/Containers/Snow"
     },
     {
       "name": "BlueSnowContainer1",
@@ -341,7 +375,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "blue_snow_container_1"
+      "registry_name": "blue_snow_container_1",
+      "path": "~/Containers/Snow"
     },
     {
       "name": "BlueSnowContainer2",
@@ -350,7 +385,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "blue_snow_container_2"
+      "registry_name": "blue_snow_container_2",
+      "path": "~/Containers/Snow"
     },
     {
       "name": "TestChest1",
@@ -577,6 +613,23 @@
     "children": [
       {
         "name": "BlockTesting UWU",
+        "children": []
+      },
+      {
+        "name": "Containers",
+        "children": [
+          {
+            "name": "Snow",
+            "children": []
+          },
+          {
+            "name": "NoSnow",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crates",
         "children": []
       }
     ]
