@@ -107,7 +107,7 @@
     "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": true,
-    "inventorySize": 56,
+    "inventorySize": 60,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
