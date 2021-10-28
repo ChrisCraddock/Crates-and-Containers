@@ -14,7 +14,6 @@ import net.mcreator.blocktesting.block.RedCrate0Block;
 import net.mcreator.blocktesting.block.PurpleCrate0Block;
 import net.mcreator.blocktesting.block.IceCrate032x32Block;
 import net.mcreator.blocktesting.block.Crate232x32Block;
-import net.mcreator.blocktesting.block.Crate132x32Block;
 import net.mcreator.blocktesting.block.Crate032x32Block;
 import net.mcreator.blocktesting.block.CherryCrate032x32Block;
 import net.mcreator.blocktesting.block.BlackCrate3Block;
@@ -63,7 +62,7 @@ public class Crate0CraftingLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == Crate132x32Block.block.asItem())) {
+			}.getItemStack((int) (0))).getItem() == Crate032x32Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {

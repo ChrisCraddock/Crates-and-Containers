@@ -1,6 +1,5 @@
 package net.mcreator.blocktesting.procedures;
 
-import net.minecraft.world.IWorld;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
@@ -26,31 +25,7 @@ public class MainContainerCraftingButtonProcedure {
 				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure MainContainerCraftingButton!");
 			return;
 		}
-		if (dependencies.get("x") == null) {
-			if (!dependencies.containsKey("x"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency x for procedure MainContainerCraftingButton!");
-			return;
-		}
-		if (dependencies.get("y") == null) {
-			if (!dependencies.containsKey("y"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency y for procedure MainContainerCraftingButton!");
-			return;
-		}
-		if (dependencies.get("z") == null) {
-			if (!dependencies.containsKey("z"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency z for procedure MainContainerCraftingButton!");
-			return;
-		}
-		if (dependencies.get("world") == null) {
-			if (!dependencies.containsKey("world"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency world for procedure MainContainerCraftingButton!");
-			return;
-		}
 		Entity entity = (Entity) dependencies.get("entity");
-		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
-		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		IWorld world = (IWorld) dependencies.get("world");
 		if (((new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof ServerPlayerEntity) {
@@ -85,11 +60,7 @@ public class MainContainerCraftingButtonProcedure {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					TestChest1BlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+					Container0Crafting1Procedure.executeProcedure($_dependencies);
 				}
 			}
 			if (((new Object() {

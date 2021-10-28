@@ -186,7 +186,7 @@
         "data": {
           "text": "Color",
           "onClick": {
-            "name": "MainContainerCraftingButton"
+            "name": "MainCrateCraftingLogic"
           },
           "width": 50,
           "height": 20,

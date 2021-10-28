@@ -28,7 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.blocktesting.procedures.MainContainerCraftingButtonProcedure;
+import net.mcreator.blocktesting.procedures.MainCrateCraftingLogicProcedure;
 import net.mcreator.blocktesting.BlocktestingModElements;
 import net.mcreator.blocktesting.BlocktestingMod;
 
@@ -37,11 +37,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @BlocktestingModElements.ModElement.Tag
-public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement {
+public class CrateCraftingGUIGui extends BlocktestingModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public ContainerCraftingGUIGui(BlocktestingModElements instance) {
-		super(instance, 150);
+	public CrateCraftingGUIGui(BlocktestingModElements instance) {
+		super(instance, 179);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -52,12 +52,12 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 	private static class ContainerRegisterHandler {
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-			event.getRegistry().register(containerType.setRegistryName("container_crafting_gui"));
+			event.getRegistry().register(containerType.setRegistryName("crate_crafting_gui"));
 		}
 	}
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
-		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, ContainerCraftingGUIGuiWindow::new));
+		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, CrateCraftingGUIGuiWindow::new));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -459,7 +459,7 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				MainContainerCraftingButtonProcedure.executeProcedure($_dependencies);
+				MainCrateCraftingLogicProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
