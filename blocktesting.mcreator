@@ -1280,6 +1280,96 @@
       "ids": {},
       "registry_name": "snowy_wood_with_nails_crate",
       "path": "~/Crates/Snow"
+    },
+    {
+      "name": "ContainerCraftingBench",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_crafting_bench"
+    },
+    {
+      "name": "ContainerCraftingGUI",
+      "type": "gui",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_crafting_gui"
+    },
+    {
+      "name": "ContainerCraftingInsertLogic",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_crafting_insert_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "Container1CraftingLogic",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_1_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "Container2CraftingLogic",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_2_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "MainContainerCraftingLogic",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main_container_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
     }
   ],
   "variable_elements": [],
@@ -1324,6 +1414,7 @@
       "block.blocktesting.snowy_purple_crate_2": "Snowy Purple 2 Crate",
       "block.blocktesting.snowy_gray_container_0": "Snow Gray Container 0",
       "itemGroup.tabcrates_32x_32": "Crates 3 2x 3 2",
+      "block.blocktesting.container_crafting_bench": "Container Crafting Bench",
       "block.blocktesting.red_crate_0": "Red Crate",
       "block.blocktesting.cherry_crate_032x_32": "Cherry Crate",
       "itemGroup.tabsnowy_crates": "Snowy Crates",
@@ -1443,6 +1534,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "CraftingLogic",
+        "children": []
       }
     ]
   },

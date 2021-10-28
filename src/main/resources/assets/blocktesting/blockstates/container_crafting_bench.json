@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blocktesting:block/container_crafting_bench"
+    },
+    "facing=east": {
+      "model": "blocktesting:block/container_crafting_bench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blocktesting:block/container_crafting_bench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blocktesting:block/container_crafting_bench",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "blocktesting:block/container_crafting_bench",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "blocktesting:block/container_crafting_bench",
+      "x": 90
+    }
+  }
+}
