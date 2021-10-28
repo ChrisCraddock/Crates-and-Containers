@@ -30,7 +30,7 @@ public class WhiteContainerEndsGUIGuiWindow extends ContainerScreen<WhiteContain
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
+		this.xSize = 224;
 		this.ySize = 239;
 	}
 	private static final ResourceLocation texture = new ResourceLocation("blocktesting:textures/white_container_ends_gui.png");
@@ -51,9 +51,9 @@ public class WhiteContainerEndsGUIGuiWindow extends ContainerScreen<WhiteContain
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("blocktesting:textures/whitecontainer2_frontside.png"));
-		this.blit(ms, this.guiLeft + 60, this.guiTop + 7, 0, 0, 16, 16, 16, 16);
+		this.blit(ms, this.guiLeft + 84, this.guiTop + 7, 0, 0, 16, 16, 16, 16);
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("blocktesting:textures/whitecontainer2_frontside.png"));
-		this.blit(ms, this.guiLeft + 96, this.guiTop + 7, 0, 0, 16, 16, 16, 16);
+		this.blit(ms, this.guiLeft + 120, this.guiTop + 7, 0, 0, 16, 16, 16, 16);
 		RenderSystem.disableBlend();
 	}
 

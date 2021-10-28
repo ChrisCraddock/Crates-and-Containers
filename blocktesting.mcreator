@@ -1619,6 +1619,312 @@
       "ids": {},
       "registry_name": "snow_crate_crafting",
       "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "ClearItemsAfterTakingProcedure",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_items_after_taking_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking2",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking3",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking4",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking5",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_5",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking6",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_6",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking7",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_7",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking8",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_8",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking9",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_9",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking10",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_10",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking11",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_11",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking12",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_12",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking13",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_13",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking14",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_14",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking15",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_15",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking16",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_16",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ClearCraftingItemsAfterTaking0",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clear_crafting_items_after_taking_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
     }
   ],
   "variable_elements": [],
@@ -1628,28 +1934,28 @@
       "block.blocktesting.peach_purple_container_2": "Peach Purple Container 2",
       "block.blocktesting.peach_purple_container_1": "Peach Purple Container 1",
       "block.blocktesting.snowy_black_with_red_crate": "Snowy  Black With Red Crate",
-      "block.blocktesting.blue_snow_container_1": "Blue Snow Container 1",
-      "block.blocktesting.gray_container_0": "Gray Container 0",
       "block.blocktesting.peach_purple_container_0": "Peach Purple Container 0",
+      "block.blocktesting.gray_container_0": "Gray Container 0",
+      "block.blocktesting.blue_snow_container_1": "Blue Snow Container 1",
       "block.blocktesting.blue_snow_container_2": "Blue Snow Container 2",
       "block.blocktesting.gray_container_1": "Gray Container 1",
       "block.blocktesting.gray_container_2": "Gray Container 2",
       "block.blocktesting.blue_snow_container_0": "Blue Snow Container 0",
       "block.blocktesting.snowy_tan_container_0": "Snow Tan Container 0",
-      "block.blocktesting.brown_container_1": "Brown Container 1",
       "block.blocktesting.snowy_tan_container_2": "Snow Tan Container 2",
-      "block.blocktesting.snowy_tan_container_1": "Snow Tan Container 1",
+      "block.blocktesting.brown_container_1": "Brown Container 1",
       "block.blocktesting.brown_container_2": "Brown Container 2",
+      "block.blocktesting.snowy_tan_container_1": "Snow Tan Container 1",
       "block.blocktesting.snowy_green_container_0": "Snow Green Container 0",
       "block.blocktesting.snowy_wood_crate": "Snowy Wood Crate",
       "block.blocktesting.snowy_green_container_2": "Snow Green Container 2",
       "block.blocktesting.snowy_green_container_1": "Snow Green Container 1",
       "block.blocktesting.crate_032x_32": "Plain Wood Crate",
       "block.blocktesting.purple_container_0": "Purple Container 0",
-      "block.blocktesting.purple_container_2": "Purple Container 2",
       "block.blocktesting.snowy_light_green_container_0": "Snowy Light Green Container 0",
-      "block.blocktesting.purple_container_1": "Purple Container 1",
+      "block.blocktesting.purple_container_2": "Purple Container 2",
       "block.blocktesting.snowy_light_green_container_1": "Snowy Light Green Container 1",
+      "block.blocktesting.purple_container_1": "Purple Container 1",
       "block.blocktesting.snowy_light_green_container_2": "Snowy Light Green Container 2",
       "block.blocktesting.brown_container_0": "Brown Container 0",
       "block.blocktesting.snowy_black_crate": "Snowy IBlack Crate",

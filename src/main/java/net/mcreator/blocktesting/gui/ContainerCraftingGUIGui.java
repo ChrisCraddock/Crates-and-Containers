@@ -29,6 +29,23 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.blocktesting.procedures.MainContainerCraftingButtonProcedure;
+import net.mcreator.blocktesting.procedures.ClearItemsAfterTakingProcedureProcedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking9Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking8Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking7Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking6Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking5Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking4Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking3Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking2Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking16Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking15Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking14Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking13Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking12Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking11Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking10Procedure;
+import net.mcreator.blocktesting.procedures.ClearCraftingItemsAfterTaking0Procedure;
 import net.mcreator.blocktesting.BlocktestingModElements;
 import net.mcreator.blocktesting.BlocktestingMod;
 
@@ -115,16 +132,66 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 				}
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 37) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(0, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(0, 2, b.getCount() - a.getCount());
+				}
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 8) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(1, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(1, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 26) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(2, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(2, 2, b.getCount() - a.getCount());
+				}
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 44) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(3, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(3, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -132,11 +199,37 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 62) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(4, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(4, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 88, 8) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(5, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(5, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -144,11 +237,37 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 88, 26) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(6, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(6, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 88, 44) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(7, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(7, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -156,11 +275,37 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 88, 62) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(8, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(8, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 115, 8) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(9, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(9, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -168,11 +313,37 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 26) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(10, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(10, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 115, 44) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(11, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(11, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -180,11 +351,37 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 115, 62) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(12, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(12, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 142, 8) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(13, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(13, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -192,17 +389,56 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			}));
 			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 142, 26) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(14, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(14, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 142, 44) {
 				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(15, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(15, 2, b.getCount() - a.getCount());
+				}
+
+				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
 				}
 			}));
 			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 142, 62) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(16, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(16, 2, b.getCount() - a.getCount());
+				}
+
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -469,5 +705,260 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (slotID == 0 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking0Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 0 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking0Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearItemsAfterTakingProcedureProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 1 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearItemsAfterTakingProcedureProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking2Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking2Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 3 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking3Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 3 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking3Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 4 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking4Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 4 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking4Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 5 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking5Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 5 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking5Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 6 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking6Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 6 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking6Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 7 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking7Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 7 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking7Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 8 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking8Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 8 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking8Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 9 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking9Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 9 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking9Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 10 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking10Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 10 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking10Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 11 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking11Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 11 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking11Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 12 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking12Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 12 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking12Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 13 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking13Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 13 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking13Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 14 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking14Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 14 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking14Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 15 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking15Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 15 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking15Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 16 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking16Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 16 && changeType == 2) {
+			int amount = meta;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ClearCraftingItemsAfterTaking16Procedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 }

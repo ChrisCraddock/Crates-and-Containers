@@ -19,6 +19,12 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking0"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking0"
+          },
           "name": "Slot #0",
           "x": 132,
           "y": 73
@@ -30,6 +36,12 @@
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearItemsAfterTakingProcedure"
+          },
+          "onStackTransfer": {
+            "name": "ClearItemsAfterTakingProcedure"
+          },
           "name": "Slot #1",
           "x": 186,
           "y": 44
@@ -44,6 +56,12 @@
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking2"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking2"
+          },
           "name": "Slot #2",
           "x": 186,
           "y": 62
@@ -55,6 +73,12 @@
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking3"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking3"
+          },
           "name": "Slot #3",
           "x": 186,
           "y": 80
@@ -66,6 +90,12 @@
           "id": 4,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking4"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking4"
+          },
           "name": "Slot #4",
           "x": 186,
           "y": 98
@@ -77,6 +107,12 @@
           "id": 5,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking5"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking5"
+          },
           "name": "Slot #5",
           "x": 213,
           "y": 44
@@ -88,6 +124,12 @@
           "id": 6,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking6"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking6"
+          },
           "name": "Slot #6",
           "x": 213,
           "y": 62
@@ -99,6 +141,12 @@
           "id": 7,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking7"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking7"
+          },
           "name": "Slot #7",
           "x": 213,
           "y": 80
@@ -110,6 +158,12 @@
           "id": 8,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking8"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking8"
+          },
           "name": "Slot #8",
           "x": 213,
           "y": 98
@@ -121,6 +175,12 @@
           "id": 9,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking9"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking9"
+          },
           "name": "Slot #9",
           "x": 240,
           "y": 44
@@ -132,6 +192,12 @@
           "id": 10,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking10"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking10"
+          },
           "name": "Slot #10",
           "x": 240,
           "y": 62
@@ -143,6 +209,12 @@
           "id": 11,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking11"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking11"
+          },
           "name": "Slot #11",
           "x": 240,
           "y": 80
@@ -154,6 +226,12 @@
           "id": 12,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking12"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking12"
+          },
           "name": "Slot #12",
           "x": 240,
           "y": 98
@@ -165,6 +243,12 @@
           "id": 13,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking13"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking13"
+          },
           "name": "Slot #13",
           "x": 267,
           "y": 44
@@ -176,6 +260,12 @@
           "id": 14,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking14"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking14"
+          },
           "name": "Slot #14",
           "x": 267,
           "y": 62
@@ -201,6 +291,12 @@
           "id": 15,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking15"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking15"
+          },
           "name": "Slot #15",
           "x": 267,
           "y": 80
@@ -212,6 +308,12 @@
           "id": 16,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "ClearCraftingItemsAfterTaking16"
+          },
+          "onStackTransfer": {
+            "name": "ClearCraftingItemsAfterTaking16"
+          },
           "name": "Slot #16",
           "x": 267,
           "y": 98

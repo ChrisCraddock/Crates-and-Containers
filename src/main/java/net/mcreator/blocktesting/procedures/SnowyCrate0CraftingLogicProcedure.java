@@ -46,7 +46,7 @@ public class SnowyCrate0CraftingLogicProcedure {
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) != 64)) {
+		}.getAmount((int) (0))) != 65)) {
 			if (((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;

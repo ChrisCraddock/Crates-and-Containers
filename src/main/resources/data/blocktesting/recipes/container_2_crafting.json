@@ -3,7 +3,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "34 ",
+    "345",
     "678"
   ],
   "key": {
@@ -20,6 +20,9 @@
       "item": "minecraft:chest"
     },
     "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
       "item": "minecraft:chest"
     },
     "6": {
