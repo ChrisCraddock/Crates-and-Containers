@@ -7,31 +7,32 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.blocktesting.block.YellowContainer1Block;
-import net.mcreator.blocktesting.block.WhiteContainer1Block;
-import net.mcreator.blocktesting.block.TwitchContainer1Block;
-import net.mcreator.blocktesting.block.TanContainer1Block;
-import net.mcreator.blocktesting.block.SakureContainer1Block;
-import net.mcreator.blocktesting.block.RedContainer1Block;
-import net.mcreator.blocktesting.block.PurpleContainer1Block;
-import net.mcreator.blocktesting.block.PeachPurpleContainer1Block;
-import net.mcreator.blocktesting.block.OrangeContainer1Block;
-import net.mcreator.blocktesting.block.LightGreenContainer1Block;
-import net.mcreator.blocktesting.block.GreenContainer1Block;
-import net.mcreator.blocktesting.block.GrayContainer1Block;
-import net.mcreator.blocktesting.block.DarkBlueContainer1Block;
-import net.mcreator.blocktesting.block.BrownContainer1Block;
-import net.mcreator.blocktesting.block.BlackContainer1Block;
+import net.mcreator.blocktesting.block.SnowyYellowContainer1Block;
+import net.mcreator.blocktesting.block.SnowyWhiteContainer1Block;
+import net.mcreator.blocktesting.block.SnowyTwitchContainer1Block;
+import net.mcreator.blocktesting.block.SnowyTanContainer1Block;
+import net.mcreator.blocktesting.block.SnowySakuraContainer1Block;
+import net.mcreator.blocktesting.block.SnowyRedContainer1Block;
+import net.mcreator.blocktesting.block.SnowyPurpleContainer1Block;
+import net.mcreator.blocktesting.block.SnowyPeachPurpleContainer1Block;
+import net.mcreator.blocktesting.block.SnowyOrangeContainer1Block;
+import net.mcreator.blocktesting.block.SnowyLightGreenContainer1Block;
+import net.mcreator.blocktesting.block.SnowyGreenContainer1Block;
+import net.mcreator.blocktesting.block.SnowyGrayContainer1Block;
+import net.mcreator.blocktesting.block.SnowyDarkBlueContainer1Block;
+import net.mcreator.blocktesting.block.SnowyBrownContainer1Block;
+import net.mcreator.blocktesting.block.SnowyBlackContainer1Block;
+import net.mcreator.blocktesting.block.BlueSnowContainer1Block;
 import net.mcreator.blocktesting.BlocktestingMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class Container1CraftingLogicProcedure {
+public class SnowyContainer1LogicProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure Container1CraftingLogic!");
+				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure SnowyContainer1Logic!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -65,13 +66,13 @@ public class Container1CraftingLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer1Block.block.asItem())) {
+			}.getItemStack((int) (0))).getItem() == SnowyWhiteContainer1Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(SakureContainer1Block.block);
+							ItemStack _setstack = new ItemStack(BlueSnowContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -98,7 +99,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TwitchContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyBrownContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -125,7 +126,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BlackContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyBlackContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -152,7 +153,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(OrangeContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyGreenContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -179,7 +180,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(GreenContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyOrangeContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -206,7 +207,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(BrownContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowySakuraContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -233,7 +234,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(TanContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyTanContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -260,7 +261,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(DarkBlueContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyTwitchContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -287,7 +288,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(GrayContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyDarkBlueContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -314,7 +315,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(LightGreenContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyGrayContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -341,7 +342,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(PeachPurpleContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyLightGreenContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -368,7 +369,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(PurpleContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyPeachPurpleContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -395,7 +396,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(RedContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyPurpleContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -422,7 +423,7 @@ public class Container1CraftingLogicProcedure {
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							ItemStack _setstack = new ItemStack(YellowContainer1Block.block);
+							ItemStack _setstack = new ItemStack(SnowyRedContainer1Block.block);
 							_setstack.setCount((int) Math.max((new Object() {
 								public int getAmount(int sltid) {
 									if (entity instanceof ServerPlayerEntity) {
@@ -440,6 +441,33 @@ public class Container1CraftingLogicProcedure {
 								}
 							}.getAmount((int) (14))), 1));
 							((Slot) ((Map) invobj).get((int) (14))).putStack(_setstack);
+							_current.detectAndSendChanges();
+						}
+					}
+				}
+				if (entity instanceof PlayerEntity) {
+					Container _current = ((PlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack _setstack = new ItemStack(SnowyYellowContainer1Block.block);
+							_setstack.setCount((int) Math.max((new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof ServerPlayerEntity) {
+										Container _current = ((ServerPlayerEntity) entity).openContainer;
+										if (_current instanceof Supplier) {
+											Object invobj = ((Supplier) _current).get();
+											if (invobj instanceof Map) {
+												ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+												if (stack != null)
+													return stack.getCount();
+											}
+										}
+									}
+									return 0;
+								}
+							}.getAmount((int) (15))), 1));
+							((Slot) ((Map) invobj).get((int) (15))).putStack(_setstack);
 							_current.detectAndSendChanges();
 						}
 					}

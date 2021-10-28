@@ -27,11 +27,11 @@ import net.mcreator.blocktesting.BlocktestingMod;
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class ContainerCraftingInsertLogicProcedure {
+public class Container0Crafting1Procedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure ContainerCraftingInsertLogic!");
+				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure Container0Crafting1!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -93,22 +93,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -136,22 +120,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -179,22 +147,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -222,22 +174,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -265,22 +201,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -308,22 +228,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -351,22 +255,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -394,22 +282,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -437,22 +309,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -480,22 +336,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -523,22 +363,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -566,22 +390,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
@@ -609,22 +417,6 @@ public class ContainerCraftingInsertLogicProcedure {
 						}
 					}
 				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
 				if (entity instanceof PlayerEntity) {
 					Container _current = ((PlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {

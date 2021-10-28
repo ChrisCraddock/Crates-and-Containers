@@ -28,7 +28,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.blocktesting.procedures.MainContainerCraftingLogicProcedure;
+import net.mcreator.blocktesting.procedures.SnowyContainer1LogicProcedure;
 import net.mcreator.blocktesting.BlocktestingModElements;
 import net.mcreator.blocktesting.BlocktestingMod;
 
@@ -459,7 +459,7 @@ public class ContainerCraftingGUIGui extends BlocktestingModElements.ModElement 
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				MainContainerCraftingLogicProcedure.executeProcedure($_dependencies);
+				SnowyContainer1LogicProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

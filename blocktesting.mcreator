@@ -439,7 +439,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "white_container_ends_gui"
+      "registry_name": "white_container_ends_gui",
+      "path": "~/Containers/Crafting"
     },
     {
       "name": "BrownContainer0",
@@ -1288,7 +1289,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "container_crafting_bench"
+      "registry_name": "container_crafting_bench",
+      "path": "~/Containers/Crafting"
     },
     {
       "name": "ContainerCraftingGUI",
@@ -1297,25 +1299,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "container_crafting_gui"
-    },
-    {
-      "name": "ContainerCraftingInsertLogic",
-      "type": "procedure",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "container_crafting_insert_logic",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/CraftingLogic"
+      "registry_name": "container_crafting_gui",
+      "path": "~/Containers/Crafting"
     },
     {
       "name": "Container1CraftingLogic",
@@ -1354,18 +1339,268 @@
       "path": "~/CraftingLogic"
     },
     {
-      "name": "MainContainerCraftingLogic",
+      "name": "SnowyContainer0CraftingLogic",
       "type": "procedure",
-      "sortid": 154,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "main_container_crafting_logic",
+      "registry_name": "snowy_container_0_crafting_logic",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "ContainerTestLogic0",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_test_logic_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "SnowyContainer1Logic",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_container_1_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "SnowyContainer2Logic",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_container_2_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "WoodCrateCrafting",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "CrateCraftingStation",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_crafting_station",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "ContainerCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_crafting_table_recipe",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "Container0Crafting",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_0_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "Container1Crafting",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_1_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "Container2Crafting",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_2_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "SnowContainer0Crafting",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_container_0_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "SnowContainer1Crafting",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_container_1_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "SnowContainer2Crafting",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snow_container_2_crafting",
+      "path": "~/Containers/Crafting"
+    },
+    {
+      "name": "Crate0CraftingLogic",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_0_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "SnowyCrate0CraftingLogic",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snowy_crate_0_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "MainCrateCraftingLogic",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main_crate_crafting_logic",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "Container0Crafting1",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_0_crafting_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CraftingLogic"
+    },
+    {
+      "name": "MainContainerCraftingButton",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main_container_crafting_button",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1379,28 +1614,28 @@
       "block.blocktesting.peach_purple_container_2": "Peach Purple Container 2",
       "block.blocktesting.peach_purple_container_1": "Peach Purple Container 1",
       "block.blocktesting.snowy_black_with_red_crate": "Snowy  Black With Red Crate",
-      "block.blocktesting.blue_snow_container_1": "Blue Snow Container 1",
-      "block.blocktesting.gray_container_0": "Gray Container 0",
       "block.blocktesting.peach_purple_container_0": "Peach Purple Container 0",
+      "block.blocktesting.gray_container_0": "Gray Container 0",
+      "block.blocktesting.blue_snow_container_1": "Blue Snow Container 1",
       "block.blocktesting.blue_snow_container_2": "Blue Snow Container 2",
       "block.blocktesting.gray_container_1": "Gray Container 1",
       "block.blocktesting.gray_container_2": "Gray Container 2",
       "block.blocktesting.blue_snow_container_0": "Blue Snow Container 0",
       "block.blocktesting.snowy_tan_container_0": "Snow Tan Container 0",
-      "block.blocktesting.brown_container_1": "Brown Container 1",
       "block.blocktesting.snowy_tan_container_2": "Snow Tan Container 2",
-      "block.blocktesting.snowy_tan_container_1": "Snow Tan Container 1",
+      "block.blocktesting.brown_container_1": "Brown Container 1",
       "block.blocktesting.brown_container_2": "Brown Container 2",
+      "block.blocktesting.snowy_tan_container_1": "Snow Tan Container 1",
       "block.blocktesting.snowy_green_container_0": "Snow Green Container 0",
       "block.blocktesting.snowy_wood_crate": "Snowy Wood Crate",
       "block.blocktesting.snowy_green_container_2": "Snow Green Container 2",
       "block.blocktesting.snowy_green_container_1": "Snow Green Container 1",
       "block.blocktesting.crate_032x_32": "Plain Wood Crate",
       "block.blocktesting.purple_container_0": "Purple Container 0",
-      "block.blocktesting.purple_container_2": "Purple Container 2",
       "block.blocktesting.snowy_light_green_container_0": "Snowy Light Green Container 0",
-      "block.blocktesting.purple_container_1": "Purple Container 1",
+      "block.blocktesting.purple_container_2": "Purple Container 2",
       "block.blocktesting.snowy_light_green_container_1": "Snowy Light Green Container 1",
+      "block.blocktesting.purple_container_1": "Purple Container 1",
       "block.blocktesting.snowy_light_green_container_2": "Snowy Light Green Container 2",
       "block.blocktesting.brown_container_0": "Brown Container 0",
       "block.blocktesting.snowy_black_crate": "Snowy IBlack Crate",
@@ -1435,6 +1670,7 @@
       "block.blocktesting.white_container_0": "White Container 0",
       "block.blocktesting.white_container_1": "White Container 1",
       "block.blocktesting.snowy_black_red_x_crate": "Snowy Black Crate With Red X",
+      "block.blocktesting.crate_crafting_station": "Crate Crafting Station",
       "block.blocktesting.sakura_container_0": "Sakura Container 0",
       "block.blocktesting.dark_blue_container_1": "Dark Blue Container 1",
       "block.blocktesting.dark_blue_container_0": "Dark Blue Container 0",
@@ -1519,6 +1755,10 @@
           {
             "name": "NoSnow",
             "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
           }
         ]
       },
@@ -1531,6 +1771,10 @@
           },
           {
             "name": "NonSnow",
+            "children": []
+          },
+          {
+            "name": "Crafting",
             "children": []
           }
         ]

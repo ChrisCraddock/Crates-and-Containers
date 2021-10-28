@@ -27,11 +27,11 @@ import net.mcreator.blocktesting.BlocktestingMod;
 import java.util.function.Supplier;
 import java.util.Map;
 
-public class Container1CraftingLogicProcedure {
+public class ContainerTestLogic0Procedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure Container1CraftingLogic!");
+				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure ContainerTestLogic0!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WhiteContainer2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SnowyWhiteContainer2"
+    },
+    "name": "snow_container_2_crafting",
+    "namespace": "mod"
+  }
+}

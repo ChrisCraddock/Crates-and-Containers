@@ -6,20 +6,19 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.blocktesting.block.WhiteContainer2Block;
-import net.mcreator.blocktesting.block.WhiteContainer1Block;
-import net.mcreator.blocktesting.block.WhiteContainer0Block;
+import net.mcreator.blocktesting.block.SnowyWoodCrateBlock;
+import net.mcreator.blocktesting.block.Crate032x32Block;
 import net.mcreator.blocktesting.BlocktestingMod;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class MainContainerCraftingLogicProcedure {
+public class MainCrateCraftingLogicProcedure {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure MainContainerCraftingLogic!");
+				BlocktestingMod.LOGGER.warn("Failed to load dependency entity for procedure MainCrateCraftingLogic!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -53,11 +52,11 @@ public class MainContainerCraftingLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer0Block.block.asItem())) {
+			}.getItemStack((int) (0))).getItem() == Crate032x32Block.block.asItem())) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					ContainerCraftingInsertLogicProcedure.executeProcedure($_dependencies);
+					Crate0CraftingLogicProcedure.executeProcedure($_dependencies);
 				}
 			}
 			if (((new Object() {
@@ -74,32 +73,11 @@ public class MainContainerCraftingLogicProcedure {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer1Block.block.asItem())) {
+			}.getItemStack((int) (0))).getItem() == SnowyWoodCrateBlock.block.asItem())) {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					Container1CraftingLogicProcedure.executeProcedure($_dependencies);
-				}
-			}
-			if (((new Object() {
-				public ItemStack getItemStack(int sltid) {
-					Entity _ent = entity;
-					if (_ent instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) _ent).openContainer;
-						if (_current instanceof Supplier) {
-							Object invobj = ((Supplier) _current).get();
-							if (invobj instanceof Map) {
-								return ((Slot) ((Map) invobj).get(sltid)).getStack();
-							}
-						}
-					}
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack((int) (0))).getItem() == WhiteContainer2Block.block.asItem())) {
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
-					Container2CraftingLogicProcedure.executeProcedure($_dependencies);
+					SnowyCrate0CraftingLogicProcedure.executeProcedure($_dependencies);
 				}
 			}
 		}

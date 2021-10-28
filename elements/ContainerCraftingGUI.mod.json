@@ -186,7 +186,7 @@
         "data": {
           "text": "Color",
           "onClick": {
-            "name": "MainContainerCraftingLogic"
+            "name": "SnowyContainer1Logic"
           },
           "width": 50,
           "height": 20,
