@@ -68,7 +68,7 @@ let me know and I will add it and credit you for the procedure on all sites.
 
 This mod (compiled plugin, compiled patch to Minecraft source, henceforth "Mod" or "The Mod"), by the terms of http://minecraft.net/terms is the sole property of the 
 Mod author (FuzzyButt, Fuzzy, Fuzzybuttgaming, henceforth "Owner" or "The Owner"). By default it may only be distributed on its own from 
-[My GitHub](https://github.com/ChrisCraddock/Crates-and-Containers) , the MCreator website here: [MCreator](https://mcreator.net/modification/80086/dc-decorations) , 
+[My GitHub](https://github.com/ChrisCraddock/Crates-and-Containers) , the MCreator website here: [MCreator](https://mcreator.net/modification/80345/crates-and-containers) , 
 [pending Cursed Forge Approval]. It may not be distributed on its own from any other source unless given explicit permission. It may be included in any modpack with 
 other mods, as long as it does not attempt to make money off The Owner's Mods. URL shorteners or other attempts to make money off The Owner's Mods are strictly 
 forbidden without advance written permission. Attempts to modify the Mod so that it can be claimed as 'technically' your own, or distribute modified versions are 
