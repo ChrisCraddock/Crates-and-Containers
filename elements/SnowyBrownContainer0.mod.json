@@ -7,7 +7,7 @@
     "textureLeft": "snowybrowncontainer0_left",
     "textureFront": "snowybrowncontainer0_middle",
     "textureRight": "snowybrowncontainer0_right",
-    "textureBack": "whitecontainer0_back",
+    "textureBack": "whitecontainer2_back",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,

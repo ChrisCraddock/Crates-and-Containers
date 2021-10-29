@@ -7,7 +7,7 @@
     "textureLeft": "snowytancontainer0_left",
     "textureFront": "snowytancontainer0_middle",
     "textureRight": "snowytancontainer0_right",
-    "textureBack": "whitecontainer0_back",
+    "textureBack": "whitecontainer2_back",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,

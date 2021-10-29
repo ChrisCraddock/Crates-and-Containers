@@ -1925,6 +1925,16 @@
         ]
       },
       "path": "~/CraftingLogic"
+    },
+    {
+      "name": "CrateStorageGUI",
+      "type": "gui",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_storage_gui",
+      "path": "~/Crates/Crafting"
     }
   ],
   "variable_elements": [],

@@ -5,7 +5,7 @@
     "up": "blocktesting:blocks/snowygreencontainer0_top",
     "north": "blocktesting:blocks/snowygreencontainer0_middle",
     "east": "blocktesting:blocks/snowygreencontainer0_left",
-    "south": "blocktesting:blocks/whitecontainer0_back",
+    "south": "blocktesting:blocks/whitecontainer2_back",
     "west": "blocktesting:blocks/snowygreencontainer0_right",
     "particle": "blocktesting:blocks/snowygreencontainer0_bottom"
   }

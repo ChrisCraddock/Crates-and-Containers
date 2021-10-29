@@ -3,9 +3,9 @@
   "textures": {
     "down": "blocktesting:blocks/snowytancontainer1_bottom",
     "up": "blocktesting:blocks/snowytancontainer1_top",
-    "north": "blocktesting:blocks/whitecontainer1_frontside",
+    "north": "blocktesting:blocks/whitecontainer2_back",
     "east": "blocktesting:blocks/snowytancontainer1_left",
-    "south": "blocktesting:blocks/whitecontainer1_back",
+    "south": "blocktesting:blocks/whitecontainer2_back",
     "west": "blocktesting:blocks/snowytancontainer1_right",
     "particle": "blocktesting:blocks/snowytancontainer1_bottom"
   }
