@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:warped_stem"
+    },
+    "1": {
+      "item": "minecraft:warped_stem"
+    },
+    "2": {
+      "item": "minecraft:warped_stem"
+    },
+    "3": {
+      "item": "minecraft:warped_stem"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:warped_stem"
+    },
+    "6": {
+      "item": "minecraft:warped_stem"
+    },
+    "7": {
+      "item": "minecraft:warped_stem"
+    },
+    "8": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "result": {
+    "item": "blocktesting:crate_crafting_station",
+    "count": 1
+  }
+}

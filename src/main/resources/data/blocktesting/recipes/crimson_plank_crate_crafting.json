@@ -1,5 +1,5 @@
 {
-  "group": "blocktesting",
+  "group": "crafting",
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
@@ -8,31 +8,31 @@
   ],
   "key": {
     "0": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "1": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "2": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "3": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "4": {
       "item": "minecraft:cobblestone"
     },
     "5": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "6": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "7": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     },
     "8": {
-      "tag": "minecraft:planks"
+      "item": "minecraft:crimson_planks"
     }
   },
   "result": {

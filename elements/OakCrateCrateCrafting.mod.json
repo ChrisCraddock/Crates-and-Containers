@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      },
+      {
+        "value": "Blocks.OAK_WOOD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Crate032x32"
+    },
+    "name": "oak_crate_crate_crafting",
+    "namespace": "mod"
+  }
+}

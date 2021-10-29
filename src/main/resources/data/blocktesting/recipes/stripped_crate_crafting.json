@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "1": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "2": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "3": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "6": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "7": {
+      "item": "minecraft:stripped_oak_log"
+    },
+    "8": {
+      "item": "minecraft:stripped_oak_log"
+    }
+  },
+  "result": {
+    "item": "blocktesting:crate_crafting_station",
+    "count": 1
+  }
+}

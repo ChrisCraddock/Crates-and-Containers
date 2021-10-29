@@ -1411,16 +1411,6 @@
       "path": "~/CraftingLogic"
     },
     {
-      "name": "WoodCrateCrafting",
-      "type": "recipe",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "wood_crate_crafting",
-      "path": "~/Crates/Crafting"
-    },
-    {
       "name": "CrateCraftingStation",
       "type": "block",
       "sortid": 162,
@@ -1598,16 +1588,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crate_crafting_gui",
-      "path": "~/Crates/Crafting"
-    },
-    {
-      "name": "RegularCrateCrafting",
-      "type": "recipe",
-      "sortid": 180,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "regular_crate_crafting",
       "path": "~/Crates/Crafting"
     },
     {
@@ -1934,6 +1914,216 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crate_storage_gui",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "ArcaciaCrateCrafting",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arcacia_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "OakCrateCrafting",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "SpruceCrateCrafting",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "BirchCrateCrafting",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "JungleCrateCrafting",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "DarkCrateCrafting",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "WarpedCrateCrafting",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "CrimsonCrateCrafting",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "StrippedCrateCrafting",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "Stripped2CrateCrafting",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_2_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "Stripped3CrateCrafting",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_3_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "OakCrateCrateCrafting",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_crate_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "SpruceCrateCrateCrafting",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_crate_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "OakPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "SprucePlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "BirchPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "JunglePlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "AcaciaPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "DARKPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "CrimsonPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_plank_crate_crafting",
+      "path": "~/Crates/Crafting"
+    },
+    {
+      "name": "WarpedPlankCrateCrafting",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_plank_crate_crafting",
       "path": "~/Crates/Crafting"
     }
   ],

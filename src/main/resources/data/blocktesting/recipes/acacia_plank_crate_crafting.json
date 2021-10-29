@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_planks"
+    },
+    "1": {
+      "item": "minecraft:acacia_planks"
+    },
+    "2": {
+      "item": "minecraft:acacia_planks"
+    },
+    "3": {
+      "item": "minecraft:acacia_planks"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:acacia_planks"
+    },
+    "6": {
+      "item": "minecraft:acacia_planks"
+    },
+    "7": {
+      "item": "minecraft:acacia_planks"
+    },
+    "8": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "blocktesting:crate_032x_32",
+    "count": 1
+  }
+}

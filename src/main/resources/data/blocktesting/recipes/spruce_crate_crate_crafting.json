@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_wood"
+    },
+    "1": {
+      "item": "minecraft:spruce_wood"
+    },
+    "2": {
+      "item": "minecraft:spruce_wood"
+    },
+    "3": {
+      "item": "minecraft:spruce_wood"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:spruce_wood"
+    },
+    "6": {
+      "item": "minecraft:spruce_wood"
+    },
+    "7": {
+      "item": "minecraft:spruce_wood"
+    },
+    "8": {
+      "item": "minecraft:spruce_wood"
+    }
+  },
+  "result": {
+    "item": "blocktesting:crate_032x_32",
+    "count": 1
+  }
+}

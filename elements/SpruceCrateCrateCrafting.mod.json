@@ -6,41 +6,41 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "crafting",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Blocks.SPRUCE_WOOD"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:Crate032x32"
     },
-    "name": "regular_crate_crafting",
+    "name": "spruce_crate_crate_crafting",
     "namespace": "mod"
   }
 }

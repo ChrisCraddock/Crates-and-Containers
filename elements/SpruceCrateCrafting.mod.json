@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "crafting",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      },
+      {
+        "value": "Blocks.LOG#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrateCraftingStation"
+    },
+    "name": "spruce_crate_crafting",
+    "namespace": "mod"
+  }
+}

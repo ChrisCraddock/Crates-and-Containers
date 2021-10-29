@@ -1,0 +1,42 @@
+{
+  "group": "crafting",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crimson_stem"
+    },
+    "1": {
+      "item": "minecraft:crimson_stem"
+    },
+    "2": {
+      "item": "minecraft:crimson_stem"
+    },
+    "3": {
+      "item": "minecraft:crimson_stem"
+    },
+    "4": {
+      "item": "minecraft:cobblestone"
+    },
+    "5": {
+      "item": "minecraft:crimson_stem"
+    },
+    "6": {
+      "item": "minecraft:crimson_stem"
+    },
+    "7": {
+      "item": "minecraft:crimson_stem"
+    },
+    "8": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "result": {
+    "item": "blocktesting:crate_crafting_station",
+    "count": 1
+  }
+}

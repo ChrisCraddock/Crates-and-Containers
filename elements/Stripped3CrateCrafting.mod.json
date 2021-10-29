@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
         "value": "Blocks.COBBLESTONE"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       },
       {
-        "value": "Blocks.LOG"
+        "value": "Blocks.STRIPPED_SPRUCE_LOG"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:CrateCraftingStation"
     },
-    "name": "wood_crate_crafting",
+    "name": "stripped_3_crate_crafting",
     "namespace": "mod"
   }
 }
